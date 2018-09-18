@@ -1,0 +1,27 @@
+package com.example.demo.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.model.Post;
+import com.example.demo.service.EnqueueService;
+
+public class RedisEnqueueService implements EnqueueService {
+
+	private RedisChannelGateway channelGateway;
+
+	@Autowired
+	   public RedisQueueService(RedisChannelGateway channelGateway) {
+	       this.channelGateway = channelGateway;
+	   }
+
+	@Override
+	public void enqueue(PostPublishedEvent event) {
+		channelGateway.enqueue(event);
+	}
+
+	@Override
+	public void enqueue(Post post) {
+		channelGateway.enqueue(event);
+	}
+
+}

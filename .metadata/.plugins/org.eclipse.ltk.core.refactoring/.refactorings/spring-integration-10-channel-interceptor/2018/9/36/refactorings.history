@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CustomChannelInterceptor.java&apos; to &apos;com.oreilly.integration.channel.interceptor.CustomChannelInterceptor.java&apos;&#x0A;- Original project: &apos;spring-integration-10-channel-interceptor&apos;&#x0A;- Destination element: &apos;com.oreilly.integration.channel.interceptor.CustomChannelInterceptor.java&apos;&#x0A;- Original element: &apos;com.oreilly.integration.channel.interceptor.CustomChannelInterceptor.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.oreilly.integration.channel.interceptor{CustomChannelInterceptor.java" element1="/src\/main\/java&lt;com.oreilly.integration.channel.interceptor{CustomChannelInterceptor.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1536034932934" units="1" version="1.0"/>
+</session>

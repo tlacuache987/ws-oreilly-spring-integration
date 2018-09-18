@@ -1,0 +1,5 @@
+package com.oreilly.integration.gateway.custom.filter;
+
+public class CustomFilter {
+
+}

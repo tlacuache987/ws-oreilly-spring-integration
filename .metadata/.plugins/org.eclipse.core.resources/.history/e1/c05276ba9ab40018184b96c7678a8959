@@ -1,0 +1,9 @@
+package com.example.demo.util;
+
+import org.slf4j.Logger;
+
+public class ColorWriterUtils {
+	public static void print(Logger log, String message) {
+		log.info("{}", message);
+	}
+}

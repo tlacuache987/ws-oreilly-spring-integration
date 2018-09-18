@@ -1,0 +1,7 @@
+package com.example.demo.util;
+
+public class ColorWriterUtils {
+	private void print(log, String mensaje) {
+		log.info("{}", mensaje);
+	}
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-integration-4-messaging-template"/>
+<aop-project name="spring-integration-24-payload-enricher"/>
+<aop-project name="spring-integration-8-publish-subscribe-channel"/>
+<aop-project name="spring-integration-2-channels"/>
+<aop-project name="spring-integration-15-filters"/>
+<aop-project name="spring-integration-22-filtering-headers"/>
+<aop-project name="spring-integration-12-header-value-router"/>
+<aop-project name="spring-integration-18-aggregator"/>
+<aop-project name="spring-integration-13-recipient-list-router"/>
+<aop-project name="spring-integration-demo"/>
+<aop-project name="spring-integration-19-custom-aggregator"/>
+<aop-project name="spring-integration-10-channel-interceptor"/>
+<aop-project name="spring-integration-with-redis-consumer"/>
+<aop-project name="spring-integration-3-endpoints"/>
+<aop-project name="spring-integration-11-payload-type-router"/>
+<aop-project name="spring-integration-7-direct-channel"/>
+<aop-project name="spring-integration-1-messages"/>
+<aop-project name="spring-integration-17-splitter"/>
+<aop-project name="spring-integration-6-priority-channel"/>
+<aop-project name="spring-integration-9-messaging-bridge"/>
+<aop-project name="spring-integration-20-transformers"/>
+<aop-project name="spring-integration-5-queue-channel"/>
+<aop-project name="spring-integration-with-redis-producer"/>
+<aop-project name="spring-integration-21-transformer-types"/>
+<aop-project name="spring-integration-23-header-enricher"/>
+<aop-project name="spring-integration-16-custom-filters"/>
+<aop-project name="spring-integration-14-custom-router"/>
+</aop-reference-model>

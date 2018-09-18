@@ -1,0 +1,11 @@
+package com.oreilly.integration.custom.header.enricher;
+
+import org.springframework.messaging.Message;
+
+public class CustomHeaderEnricher {
+
+	public String getHeaderValue(Message<?> message) {
+
+		return "this is a header value";
+	}
+}

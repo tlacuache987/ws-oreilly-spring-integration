@@ -1,0 +1,88 @@
+package com.example.demo;
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
+
+import com.example.demo.model.Post;
+import com.example.demo.service.EnqueueService;
+import com.example.demo.util.Color;
+import com.example.demo.util.ColorWriterUtils;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+@SpringBootApplication
+public class SpringIntegrationWithRedisProducerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIntegrationWithRedisProducerApplication.class, args);
+	}
+
+	@Autowired
+	private EnqueueService enqueueService;
+
+	@Bean
+	public CommandLineRunner runner(ThreadPoolTaskScheduler threadPoolTaskScheduler) {
+
+		return new CommandLineRunner() {
+
+			Long messageCount = 0L;
+
+			@Override
+			public void run(String... args) throws Exception {
+				// TODO code application logic here
+				System.out.println("\033[0m BLACK");
+				System.out.println("\033[31m RED");
+				System.out.println("\033[32m GREEN");
+				System.out.println("\033[33m YELLOW");
+				System.out.println("\033[34m BLUE");
+				System.out.println("\033[35m MAGENTA");
+				System.out.println("\033[36m CYAN");
+				System.out.println("\033[37m WHITE");
+				
+				log.info("\033[0m BLACK");
+				log.info("\033[31m RED");
+				log.info("\033[32m GREEN");
+				log.info("\033[33m YELLOW");
+				log.info("\033[34m BLUE");
+				log.info("\033[35m MAGENTA");
+				log.info("\033[36m CYAN");
+				log.info("\033[37m WHITE");
+
+				ColorWriterUtils.printInfo(log, Color.RED, "Producer started");
+
+				threadPoolTaskScheduler.scheduleWithFixedDelay(new Runnable() {
+
+					@Override
+					public void run() {
+						Post post = new Post();
+						post.setUrl("url " + messageCount);
+						post.setTitle("title " + messageCount);
+						post.setEmails(Arrays.asList("some" + messageCount + "@email.com",
+								"other" + messageCount + "@email.com"));
+
+						enqueueService.enqueue(post);
+
+						messageCount++;
+					}
+				}, 2000);
+
+			}
+		};
+	}
+
+	@Bean
+	public ThreadPoolTaskScheduler threadPoolTaskScheduler() {
+		ThreadPoolTaskScheduler threadPoolTaskScheduler = new ThreadPoolTaskScheduler();
+		threadPoolTaskScheduler.setPoolSize(5);
+		threadPoolTaskScheduler.setThreadNamePrefix(
+				"pub-scheduler");
+		return threadPoolTaskScheduler;
+	}
+}

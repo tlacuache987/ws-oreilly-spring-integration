@@ -1,0 +1,5 @@
+package com.oreilly.integration.custom.aggregator;
+
+public class CustomAggregator {
+
+}
