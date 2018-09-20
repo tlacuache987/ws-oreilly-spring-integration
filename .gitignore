@@ -2,6 +2,7 @@
 /.recommenders/
 
 .metadata
+.metadata/
 bin/
 tmp/
 Servers/
