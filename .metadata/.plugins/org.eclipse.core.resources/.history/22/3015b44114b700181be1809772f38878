@@ -1,9 +1,0 @@
-package com.oreilly.integration.custom.header.enricher;
-
-public class CustomHeaderEnricher {
-
-	public String getHeaderValue(Message<?> message) {
-
-		return "this is a header value";
-	}
-}

@@ -1,5 +1,0 @@
-package com.oreilly.integration.gateway;
-
-public interface EnhancedPrinterGateway {
-
-}
