@@ -14,7 +14,14 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-22-filtering-headers/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-23-header-enricher/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-24-payload-enricher/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-25-service-activator/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-26-gateway/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-27-gateway-headers/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-29-inbound-channel-adapter/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-3-endpoints/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="6" kind\="graphicalEditor" uri\="http\://www.springframework.org/schema/integration"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-30-outbound-channel-adapter/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-31-reading-files/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-32-writing-files/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-4-messaging-template/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-5-queue-channel/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/spring-integration-6-priority-channel/src/main/resources/integration-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>

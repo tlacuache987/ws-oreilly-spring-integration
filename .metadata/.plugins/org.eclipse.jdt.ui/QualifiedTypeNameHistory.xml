@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.ImportResource"/>
-    <fullyQualifiedTypeName name="org.springframework.core.annotation.Order"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
-    <fullyQualifiedTypeName name="org.springframework.messaging.support.GenericMessage"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="org.springframework.integration.channel.DirectChannel"/>
-    <fullyQualifiedTypeName name="org.springframework.messaging.MessageHandler"/>
-    <fullyQualifiedTypeName name="com.oreilly.integration.service.PrintService"/>
-    <fullyQualifiedTypeName name="org.springframework.integration.core.MessagingTemplate"/>
-    <fullyQualifiedTypeName name="org.springframework.messaging.MessageHeaders"/>
     <fullyQualifiedTypeName name="com.oreilly.integration.gateway.PrinterGateway"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
@@ -53,10 +43,21 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.springframework.integration.aggregator.AbstractAggregatingMessageGroupProcessor"/>
     <fullyQualifiedTypeName name="org.springframework.integration.support.MessageBuilder"/>
-    <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
     <fullyQualifiedTypeName name="org.springframework.integration.IntegrationMessageHeaderAccessor"/>
     <fullyQualifiedTypeName name="org.springframework.data.gemfire.util.SpringUtils"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.oreilly.integration.model.Person"/>
     <fullyQualifiedTypeName name="org.springframework.messaging.Message"/>
+    <fullyQualifiedTypeName name="com.oreilly.integration.gateway.EnhancedPrinterGateway"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Future"/>
+    <fullyQualifiedTypeName name="org.springframework.util.concurrent.ListenableFuture"/>
+    <fullyQualifiedTypeName name="org.springframework.util.concurrent.ListenableFutureCallback"/>
+    <fullyQualifiedTypeName name="scala.annotation.meta.setter"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="lombok.SneakyThrows"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="lombok.Cleanup"/>
 </qualifiedTypeNameHistroy>

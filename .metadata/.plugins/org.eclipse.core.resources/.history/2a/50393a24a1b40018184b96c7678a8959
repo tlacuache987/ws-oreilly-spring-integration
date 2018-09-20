@@ -1,7 +1,0 @@
-package com.example.demo.gateway;
-
-import com.example.demo.model.Post;
-
-public interface RedisChannelOutboundGateway {
-	void enqueue(Post post);
-}

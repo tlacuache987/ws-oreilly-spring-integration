@@ -25,6 +25,7 @@ INDEX VERSION 1.131+/Users/xvhx/ws-oreilly-spring-integration/.metadata/.plugins
 4177660846.index
 2048938952.index
 999923606.index
+484610725.index
 2350181770.index
 2898526080.index
 216965133.index
@@ -34,7 +35,7 @@ INDEX VERSION 1.131+/Users/xvhx/ws-oreilly-spring-integration/.metadata/.plugins
 536109507.index
 744830934.index
 1820581068.index
-3327288762.index
+1784897528.index
 3212499211.index
 2355989786.index
 783892148.index
@@ -44,6 +45,7 @@ INDEX VERSION 1.131+/Users/xvhx/ws-oreilly-spring-integration/.metadata/.plugins
 3071682233.index
 2989870700.index
 290087541.index
+4116524817.index
 1069260566.index
 2671904995.index
 3383152126.index
@@ -51,6 +53,7 @@ INDEX VERSION 1.131+/Users/xvhx/ws-oreilly-spring-integration/.metadata/.plugins
 1160853733.index
 3704956640.index
 179905678.index
+1859908506.index
 680005857.index
 3497374871.index
 2409083413.index

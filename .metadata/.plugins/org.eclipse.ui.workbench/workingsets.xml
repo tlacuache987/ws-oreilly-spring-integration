@@ -64,6 +64,14 @@
 <item elementID="=spring-integration-27-gateway-headers/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-28-asynchronous-gateways/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-28-asynchronous-gateways/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-29-inbound-channel-adapter/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-29-inbound-channel-adapter/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-30-outbound-channel-adapter/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-30-outbound-channel-adapter/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-31-reading-files/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-31-reading-files/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-32-writing-files/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-32-writing-files/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535928025358_1" label="Java Test Sources" name="test">
 <item elementID="=spring-integration-1-messages/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -97,6 +105,10 @@
 <item elementID="=spring-integration-26-gateway/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-27-gateway-headers/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-28-asynchronous-gateways/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-29-inbound-channel-adapter/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-30-outbound-channel-adapter/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-31-reading-files/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-32-writing-files/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535928273029_4" label="Oreilly Spring Integration - Chapter 2 Introduction" name="Oreilly Spring Integration - Chapter 2 Introduction">
 <item elementID="=spring-integration-demo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -142,6 +154,12 @@
 <item elementID="=spring-integration-26-gateway" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-27-gateway-headers" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-integration-28-asynchronous-gateways" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-29-inbound-channel-adapter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-30-outbound-channel-adapter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1537366065908_11" label="Oreilly Spring Integration - Chapter 8 File System Integrations" name="Oreilly Spring Integration - Chapter 8 File System Integrations">
+<item elementID="=spring-integration-31-reading-files" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=spring-integration-32-writing-files" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535928257338_2" label="Window Working Set" name="Aggregate for window 1535928257338"/>
 </workingSetManager>

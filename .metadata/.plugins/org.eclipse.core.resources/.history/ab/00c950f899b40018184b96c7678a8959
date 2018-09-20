@@ -1,9 +1,0 @@
-package util.bean.api;
-
-import com.example.demo.util.Color;
-
-public interface IColorWriter {
-
-	public String getColoredMessage(Color color, String mensaje);
-
-}
